@@ -32,9 +32,20 @@ a {
   height: 100%;
 }
 
-.img-section img{
-  width: 100%;
-  height: 100%;
+.img-section button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8a001;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.img-section button:hover {
+  background-color: rgba(248, 160, 1, 0.8);
 }
 
 /* ===================== LOGIN SECTION ===================== */

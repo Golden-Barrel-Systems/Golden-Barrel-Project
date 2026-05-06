@@ -247,8 +247,8 @@ h3 {
 /*padrã dos graficos */
 .Glinhas {
   width: 100%;
-  max-width: none;
   min-height: 380px;
+  max-height: 480px;
   padding: 15px;
   display: flex;
   flex-direction: column;
@@ -290,10 +290,12 @@ h3 {
   /*alertas geral */
   width: 100%;
   max-width: none;
-  min-height: auto;
+  max-height: 600px;
   padding: 15px;
   margin: 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .alertas h2 {
@@ -313,6 +315,9 @@ h3 {
 .listaAlertas {
   display: flex;
   flex-direction: column;
+  max-height: 600px;
+  overflow-y: auto;
+  gap: 15px;
 }
 
 .alertasAvisos {

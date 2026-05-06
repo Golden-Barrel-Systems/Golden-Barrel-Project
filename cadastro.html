@@ -11,8 +11,8 @@
 
 <body>
     <div class="container">
-        <div class="img-section">
-            <img src="./Assets/images/pages/cadastro/img_page-0001.jpg" alt="">
+        <div class="img-section" style="background-image: url('./Assets/images/pages/cadastro/img_page-0001.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+            <button onclick="voltar()">Voltar</button>    
         </div>
         <div class="cadastro-section">
             <div class="content">
@@ -58,6 +58,10 @@
 </html>
 
 <script>
+    function voltar() {
+        window.location = '../index.html'
+    }
+
     function CPF() {
         let cpf = input_CPF.value;
 
