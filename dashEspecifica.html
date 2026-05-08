@@ -103,8 +103,8 @@
 
             <div class="grafics">
                 <div class="Glinhas">
-                    <h2>Medições da Temperatura atual da Câmara</h2>
-                    <p>Acompanhamento contínuo da temperatura da câmara</p>
+                    <h2>Medições da Temperatura atual do sensor</h2>
+                    <p>Acompanhamento contínuo da temperatura do sensor</p>
 
                     <div class="graficoTam">
                         <canvas id="graficLineT"></canvas>
@@ -112,8 +112,8 @@
                 </div>
 
                 <div class="Glinhas">
-                    <h2>Medições da Umidade atual da Câmara</h2>
-                    <p>Acompanhamento contínuo da umidade da câmara</p>
+                    <h2>Medições da Umidade atual do sensor</h2>
+                    <p>Acompanhamento contínuo da umidade do sensor</p>
 
                     <div class="graficoTam">
                         <canvas id="graficLineU"></canvas>
@@ -446,7 +446,7 @@
             data: {
                 labels: horarios,
                 datasets: [{
-                    label: "Temperatura",
+                    label: "Temperatura ( °C )",
                     data: temperaturas,
                     borderWidth: 2,
                     borderColor: "red"
@@ -463,7 +463,7 @@
             data: {
                 labels: horarios,
                 datasets: [{
-                    label: "Umidade",
+                    label: "Umidade ( % )",
                     data: umidades,
                     borderWidth: 2,
                     borderColor: "blue"
